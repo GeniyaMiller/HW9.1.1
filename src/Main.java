@@ -10,6 +10,9 @@ public class Main {
         System.out.println("Book " + warAndWorld.getBookName() + " " + levTolstoy.getAuthorName() + " " + levTolstoy.getAuthorSurname() + " " + warAndWorld.getPublicationYear());
         System.out.println("Book " + deadSouls.getBookName() + " " + nicolayGogol.getAuthorName() + " " + nicolayGogol.getAuthorSurname() + " " + deadSouls.getPublicationYear());
 
+        warAndWorld.setPublicationYear (2012);
+        System.out.println("Book new publication " + warAndWorld.getBookName() + " " + levTolstoy.getAuthorName() + " " + levTolstoy.getAuthorSurname() + " " + warAndWorld.getPublicationYear());
+
 
     }
 }

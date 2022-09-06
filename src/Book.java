@@ -17,7 +17,7 @@ public class Book {
         public int getPublicationYear() {
             return publicationYear;
         }
-        public void setPublication(int publicationYear) {
+        public void setPublicationYear(int publicationYear) {
             this.publicationYear = publicationYear;
         }
 
